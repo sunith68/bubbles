@@ -1,0 +1,136 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: #142273;
+	
+}
+body{
+	font-family: 'Concert One', cursive;
+	background: #82B8D9;
+}
+canvas {
+	margin: auto;
+	display: block;
+	border:2px solid #142273;
+	background: #DBF9FE;
+}
+#top{
+	font-weight: bold;
+	font-size: 20px;
+	padding: 20px 40px;
+	position: relative;
+}
+#top span{
+	margin: 0 3px;
+}
+#clock{
+	font-size: 22px;
+}
+#timeText{
+	padding-left:30px;
+}
+#score{
+	font-size: 22px;
+}
+
+#hscore{
+	float: right;
+	font-size: 22px;
+}
+#hsText{
+	float: right;
+	padding-left:30px; 
+}
+#pausebtn{
+	display: inline-block;
+	float: right;
+	cursor: pointer;
+	padding-left:30px; 
+}
+#restartbtn{
+	display: inline-block;
+	float: right;
+	cursor: pointer;
+	padding-left:30px; 
+}
+#pausebtn:hover{
+	font-size:22px; 
+}
+#restartbtn:hover{
+	font-size: 22px;
+}
+#liquidLuck{
+	display: inline-block;
+	float: right;
+	font-size:18px;
+	padding: 1px 5px;
+	border-radius: 50px;
+	color: #DBF9FE;
+	background:green;
+	cursor: pointer;
+}
+#liquidLuck:hover{
+	font-size:19px;
+}
+#menu{
+	font-family: 'Modak', cursive;
+	margin: auto;
+	text-align: center;
+	margin-top: 5%;
+	font-size:60px;
+
+}
+#bubblestxt{
+	font-size:120px;	
+	padding-bottom: 100px;
+	background: -webkit-linear-gradient(#142273,#575FF2);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+#startbtn{
+	display: inline-block;
+	cursor: pointer;
+	padding-bottom: 50px;
+}
+#startbtn:hover{
+	font-size:65px;
+}
+#rulestxt{
+	display: inline-block;
+	cursor: pointer;
+}
+#rulestxt:hover{
+	font-size:65px;
+}
+#rules{
+	width: 80%;
+	margin:auto;
+	border:2px solid #142273;
+	border-radius: 10px;
+}
+#rules div{
+	font-family: 'Concert One', cursive;
+	font-size:25px;
+}
+#rules ul{
+	list-style-type: none;
+	padding: 0 10px 15px 10px;
+}
+#rules legend{
+	font-family: 'Modak', cursive;
+	text-align: center;
+	font-size:40px;
+}
+#menubtn{
+	display: inline-block;
+	font-size:30px;
+	margin: 5% 8%;
+	cursor: pointer;
+}
+#menubtn:hover{
+	font-size: 33px;
+}
+#imggauntlet{
+	display: none;
+}
