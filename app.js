@@ -118,7 +118,7 @@ function bubble(x,y,r,vel){
 	this.worth=this.r<55?3-((this.r%30)/10):10;
 	this.mass=1;
 	this.color= this.r<55?'rgba(126, 207, 255,0.4)':"#4E2A2A" ;
-	this.strength= this.r>50?6:1;
+	this.strength= this.r>50?5:1;
 	this.createGauntlet=function(){
 		if(r==45){
 			this.worth=1;
