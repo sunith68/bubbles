@@ -358,6 +358,7 @@ canvasdom.addEventListener('click',function(e){
 				}
 				else{
 					bubbles[i].strength--;
+					bubbles[i].color=`rgba(78,42,42,${bubbles[i].strength*0.1+0.6})`;
 				}
 			}
 		}
